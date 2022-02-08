@@ -6,19 +6,19 @@ import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class BubbleSortTest {
+class JavaSortTest {
 
-    final private BubbleSort<Integer> bubbleSort = new BubbleSort<>();
+    final private JavaSort<Integer> javaSort = new JavaSort<>();
     // 1. should - when         ex: thisLogicShouldSortDataWhenInsertingList
     // 2. given - when - then   ex: givenList_whenSorting_thenReturnSortedList
-    @DisplayName("[버블소트] 데이터 리스트를 입력하면, 정렬된 리스트를 반환한다.")
+    @DisplayName("[자바소트] 데이터 리스트를 입력하면, 정렬된 리스트를 반환한다.")
     @Test
     void givenList_whenSorting_thenReturnSortedList(){
         // given
         List<Integer> input = List.of(5,3,1,4,2);
 
         // when
-        List<Integer> output = bubbleSort.sort(input);
+        List<Integer> output = javaSort.sort(input);
 
         // then
         // assertEquals(List.of(1,2,3,4,5), output); //예상값, 실제값 - junit5
