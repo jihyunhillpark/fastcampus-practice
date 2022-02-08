@@ -3,7 +3,6 @@ package com.fastcampus.practice.service;
 import com.fastcampus.practice.logic.Sort;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
