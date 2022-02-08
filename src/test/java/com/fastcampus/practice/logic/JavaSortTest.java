@@ -1,7 +1,8 @@
-package logic;
+package com.fastcampus.practice.logic;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.fastcampus.practice.logic.JavaSort;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
